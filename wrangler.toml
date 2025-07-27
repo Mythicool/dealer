@@ -1,0 +1,13 @@
+name = "thunder-auto-dealer"
+compatibility_date = "2024-01-15"
+
+[env.production]
+name = "thunder-auto-dealer"
+
+[build]
+command = "npm run build"
+cwd = "."
+watch_dir = "src"
+
+[[pages_build_output_dir]]
+value = ".next"
