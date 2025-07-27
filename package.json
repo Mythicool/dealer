@@ -10,7 +10,8 @@
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:report": "playwright test --reporter=html",
-    "export": "next build && next export"
+    "verify": "node scripts/verify-build.js",
+    "deploy-ready": "npm run build && npm run verify"
   },
   "dependencies": {
     "@types/node": "^20.8.0",

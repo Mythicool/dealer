@@ -1,0 +1,6 @@
+# Redirect all traffic to HTTPS
+http://thunderauto.com/* https://thunderauto.com/:splat 301!
+http://www.thunderauto.com/* https://www.thunderauto.com/:splat 301!
+
+# Handle SPA routing
+/*    /index.html   200

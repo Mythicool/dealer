@@ -13,9 +13,12 @@
 Framework preset: Next.js (Static HTML Export)
 Build command: npm run build
 Build output directory: out
-Root directory: / (leave empty)
+Root directory: (leave empty)
+Node.js version: 18
 Environment variables: (none required)
 ```
+
+**Important**: Make sure to select "Next.js (Static HTML Export)" not regular "Next.js"
 
 ### 3. Deploy
 - Click **"Save and Deploy"**
